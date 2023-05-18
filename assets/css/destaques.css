@@ -1,7 +1,7 @@
 .destaques{
     display: grid;
     grid-gap: .2rem;
-    grid-template-columns:25% 25% 25% 25%;
+    grid-template-columns:24.8% 24.8% 24.8% 24.8%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
 }
@@ -9,6 +9,7 @@
 .caixa {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .destaques__titulo{
@@ -80,4 +81,8 @@
 .destaques__categorias___link{
     /* herda do pai */
     color: inherit;
+}
+
+.populares__card___data{
+    margin-bottom: 0.75rem;
 }
