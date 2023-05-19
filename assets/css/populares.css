@@ -24,7 +24,6 @@
     align-items: stretch;
 }
 
-
 .populares__card{
     display: grid;
     grid-row-gap: 1rem;
@@ -73,7 +72,7 @@
     color:#333333;
     text-align: justify;
     line-height: 1.5;
-    margin: 1.5 rem 0;
+    margin: 1.5rem 0;
 }
 
 .populares__titulo{
