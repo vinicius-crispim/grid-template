@@ -1,5 +1,5 @@
 .populares{
-    padding: 3rem 2rem;
+    padding: 3rem 0 0.75rem 0;
 }
 
 .populares__cabecalho{
@@ -26,15 +26,12 @@
 
 .populares__card{
     display: grid;
-    grid-row-gap: 1rem;
     grid-template-areas: 
     "imagem-card"
     "corpo-card";
     grid-template-columns: 100%;
     grid-template-rows: 173px auto;
     background: #fdfdfd;
-    margin-right: 1rem;
-    width: calc(20% - 1rem);
 }
 
 .populares__card:last-child{
